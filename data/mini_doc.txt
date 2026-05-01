@@ -1,0 +1,8 @@
+Anti-fraud guidelines (summary for testing):
+
+1) Prevent: Use strong KYC, verify beneficiaries, and validate documents before approval.
+2) Detect: Monitor transactions, audit trails, anomaly checks, and periodic inspections.
+3) Respond: Report suspected fraud quickly, freeze/stop payments, investigate, and recover funds.
+4) Governance: Clear roles, maker-checker controls, and training for staff.
+
+Citizen-facing actions: keep receipts, use official portals, never share OTP/PIN, and report fraud to the grievance/helpline.

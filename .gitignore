@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+
+# Virtual environments
+venv/
+.venv/
+env/
+samajh-env/
+
+# Environment files
+.env
+
+# Build / test / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local databases and vector stores
+chromadb/
+*.sqlite3
+
+# Streamlit
+.streamlit/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Data artifacts
+data/raw/*
+data/processed/*
+
+# Keep directories
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/jargon_dict/.gitkeep

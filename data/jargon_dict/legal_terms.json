@@ -1,0 +1,338 @@
+[
+  {
+    "term": "repo rate",
+    "plain_english": "The repo rate is the interest rate at which the Reserve Bank of India lends money to commercial banks for a short period.",
+    "plain_hindi": "रेपो रेट वह ब्याज दर है जिस पर भारतीय रिजर्व बैंक कम समय के लिए बैंकों को पैसा उधार देता है।",
+    "plain_tamil": "ரெப்போ வட்டி விகிதம் என்பது இந்திய ரிசர்வ் வங்கி குறுகிய காலத்திற்கு வணிக வங்கிகளுக்கு பணம் கடன் வழங்கும் வட்டி விகிதம் ஆகும்.",
+    "example": "If the repo rate rises, bank loan EMIs may become costlier over time.",
+    "source": "Reserve Bank of India monetary policy terminology"
+  },
+  {
+    "term": "fiscal deficit",
+    "plain_english": "Fiscal deficit is the gap between the government's total spending and its total income, excluding borrowings.",
+    "plain_hindi": "राजकोषीय घाटा सरकार के कुल खर्च और उधार को छोड़कर उसकी कुल आय के बीच का अंतर है।",
+    "plain_tamil": "நிதிக் குறைவு என்பது அரசின் மொத்த செலவினமும், கடனைத் தவிர்த்த மொத்த வருவாயும் இடையிலான வித்தியாசம் ஆகும்.",
+    "example": "A higher fiscal deficit means the government may need to borrow more money.",
+    "source": "Union Budget and public finance terminology"
+  },
+  {
+    "term": "MSP",
+    "plain_english": "MSP or Minimum Support Price is the minimum price at which the government promises to buy certain crops from farmers.",
+    "plain_hindi": "एमएसपी या न्यूनतम समर्थन मूल्य वह न्यूनतम कीमत है जिस पर सरकार कुछ फसलों को किसानों से खरीदने का आश्वासन देती है।",
+    "plain_tamil": "எம்எஸ்பி அல்லது குறைந்தபட்ச ஆதரவு விலை என்பது குறிப்பிட்ட பயிர்களை அரசு விவசாயிகளிடமிருந்து வாங்க உறுதி செய்யும் குறைந்தபட்ச விலை ஆகும்.",
+    "example": "If market prices fall below MSP, farmers may still expect procurement at the MSP rate for eligible crops.",
+    "source": "Government agricultural procurement terminology"
+  },
+  {
+    "term": "RTI",
+    "plain_english": "RTI or Right to Information is a law that allows citizens to ask public authorities for official information.",
+    "plain_hindi": "आरटीआई या सूचना का अधिकार वह कानून है जिसके तहत नागरिक सरकारी संस्थाओं से आधिकारिक जानकारी मांग सकते हैं।",
+    "plain_tamil": "ஆர்டிஐ அல்லது தகவல் அறியும் உரிமை என்பது குடிமக்கள் பொது அதிகாரிகளிடமிருந்து அதிகாரப்பூர்வ தகவலை கேட்க அனுமதிக்கும் சட்டம் ஆகும்.",
+    "example": "A person can file an RTI application to ask why a welfare benefit was delayed.",
+    "source": "Right to Information Act, 2005"
+  },
+  {
+    "term": "FIR",
+    "plain_english": "FIR or First Information Report is the written record prepared by police when information about a cognizable offence is first given.",
+    "plain_hindi": "एफआईआर या प्रथम सूचना रिपोर्ट वह लिखित रिकॉर्ड है जो पुलिस किसी संज्ञेय अपराध की पहली सूचना मिलने पर दर्ज करती है।",
+    "plain_tamil": "எப்ஐஆர் அல்லது முதல் தகவல் அறிக்கை என்பது கைது செய்யக்கூடிய குற்றம் குறித்து முதல் தகவல் கிடைக்கும் போது காவல்துறை தயாரிக்கும் எழுத்துப் பதிவு ஆகும்.",
+    "example": "If a theft is reported at a police station, the complaint may be registered as an FIR.",
+    "source": "Criminal procedure and police reporting terminology"
+  },
+  {
+    "term": "PIL",
+    "plain_english": "PIL or Public Interest Litigation is a court case filed to protect public interest, especially for groups who may not be able to approach the court easily.",
+    "plain_hindi": "पीआईएल या जनहित याचिका वह मामला है जो जनहित की रक्षा के लिए अदालत में दायर किया जाता है, खासकर उन लोगों के लिए जो आसानी से अदालत नहीं जा सकते।",
+    "plain_tamil": "பிஐஎல் அல்லது பொதுநல வழக்கு என்பது பொதுநலனை பாதுகாக்க, குறிப்பாக எளிதில் நீதிமன்றத்தை அணுக முடியாத மக்களின் நலனுக்காக தாக்கல் செய்யப்படும் வழக்கு ஆகும்.",
+    "example": "A PIL may be filed about polluted drinking water affecting an entire community.",
+    "source": "Indian constitutional litigation terminology"
+  },
+  {
+    "term": "writ petition",
+    "plain_english": "A writ petition is a request made to a High Court or the Supreme Court asking it to protect a legal or fundamental right.",
+    "plain_hindi": "रिट याचिका वह आवेदन है जो उच्च न्यायालय या सर्वोच्च न्यायालय से कानूनी या मौलिक अधिकार की रक्षा के लिए किया जाता है।",
+    "plain_tamil": "ரிட் மனு என்பது சட்ட உரிமை அல்லது அடிப்படை உரிமையை பாதுகாக்க உயர்நீதிமன்றம் அல்லது உச்சநீதிமன்றத்திடம் செய்யப்படும் கோரிக்கை ஆகும்.",
+    "example": "A person may file a writ petition if a public authority acts unfairly or illegally.",
+    "source": "Constitutional remedies under Articles 32 and 226"
+  },
+  {
+    "term": "ordinance",
+    "plain_english": "An ordinance is a temporary law issued by the President or a Governor when the legislature is not in session.",
+    "plain_hindi": "अध्यादेश एक अस्थायी कानून है जिसे राष्ट्रपति या राज्यपाल तब जारी करते हैं जब विधानमंडल का सत्र नहीं चल रहा होता।",
+    "plain_tamil": "ஆர்டினன்ஸ் என்பது சட்டமன்றம் கூட்டத்தில் இல்லாதபோது குடியரசுத் தலைவர் அல்லது ஆளுநர் வெளியிடும் தற்காலிக சட்டம் ஆகும்.",
+    "example": "An urgent legal change can be introduced first through an ordinance and later placed before the legislature.",
+    "source": "Constitutional legislative procedure"
+  },
+  {
+    "term": "gazette notification",
+    "plain_english": "A gazette notification is an official government publication used to announce laws, rules, appointments, or policy decisions.",
+    "plain_hindi": "राजपत्र अधिसूचना सरकार की आधिकारिक प्रकाशित सूचना होती है जिसमें कानून, नियम, नियुक्तियां या नीतिगत निर्णय घोषित किए जाते हैं।",
+    "plain_tamil": "கெசெட் அறிவிப்பு என்பது சட்டங்கள், விதிகள், நியமனங்கள் அல்லது கொள்கை முடிவுகளை அறிவிக்க அரசு வெளியிடும் அதிகாரப்பூர்வ வெளியீடு ஆகும்.",
+    "example": "A rule may become effective from the date mentioned in the gazette notification.",
+    "source": "Official Gazette publication practice"
+  },
+  {
+    "term": "promissory note",
+    "plain_english": "A promissory note is a written promise by one person to pay a definite sum of money to another person.",
+    "plain_hindi": "प्रतिज्ञा पत्र एक लिखित वादा है जिसमें एक व्यक्ति दूसरे व्यक्ति को निश्चित राशि चुकाने का आश्वासन देता है।",
+    "plain_tamil": "வாக்குறுதி நோட்டு என்பது ஒருவர் மற்றொருவருக்கு ஒரு குறிப்பிட்ட தொகையை செலுத்துவதாக எழுத்துப்பூர்வமாக அளிக்கும் உறுதி ஆகும்.",
+    "example": "A borrower may sign a promissory note while taking a private loan.",
+    "source": "Negotiable Instruments Act terminology"
+  },
+  {
+    "term": "encumbrance",
+    "plain_english": "Encumbrance means a legal claim, charge, or liability on a property, such as a mortgage or unpaid dues.",
+    "plain_hindi": "एन्कम्ब्रेंस का मतलब किसी संपत्ति पर कानूनी दावा, बंधक या देनदारी होना है।",
+    "plain_tamil": "என்கம்பரன்ஸ் என்பது ஒரு சொத்துக்கு மேலுள்ள சட்டப்பூர்வ கோரிக்கை, அடமானம் அல்லது பொறுப்பு ஆகும்.",
+    "example": "People often check an encumbrance certificate before buying land or a house.",
+    "source": "Property registration and land records terminology"
+  },
+  {
+    "term": "fiduciary",
+    "plain_english": "A fiduciary is a person or organization trusted to act in the best interest of another person, especially in financial or legal matters.",
+    "plain_hindi": "फिड्यूशियरी वह व्यक्ति या संस्था है जिस पर किसी दूसरे व्यक्ति के हित में काम करने का भरोसा किया जाता है, खासकर वित्तीय या कानूनी मामलों में।",
+    "plain_tamil": "பிட்யூஷியரி என்பது மற்றொருவரின் நலனில் செயல்பட நம்பிக்கை வைக்கப்படும் நபர் அல்லது நிறுவனம் ஆகும், குறிப்பாக நிதி அல்லது சட்ட விஷயங்களில்.",
+    "example": "A trustee managing someone else's money has a fiduciary duty.",
+    "source": "Legal and financial trust terminology"
+  },
+  {
+    "term": "capitation fee",
+    "plain_english": "Capitation fee is an amount illegally or additionally charged, often by an educational institution, beyond approved fees for admission.",
+    "plain_hindi": "कैपिटेशन फीस वह अतिरिक्त या अवैध राशि है जो अक्सर शैक्षणिक संस्थान प्रवेश के लिए निर्धारित शुल्क से अलग लेते हैं।",
+    "plain_tamil": "கேபிடேஷன் கட்டணம் என்பது சேர்க்கைக்காக அனுமதிக்கப்பட்ட கட்டணத்திற்கு மேலாக, பல நேரங்களில் கல்வி நிறுவனங்கள் சட்டவிரோதமாக வசூலிக்கும் கூடுதல் தொகை ஆகும்.",
+    "example": "If a college demands a large unofficial payment for admission, it may be called capitation fee.",
+    "source": "Education regulation terminology"
+  },
+  {
+    "term": "disinvestment",
+    "plain_english": "Disinvestment means the government selling part or all of its ownership in a public sector company.",
+    "plain_hindi": "विनिवेश का मतलब है कि सरकार किसी सार्वजनिक क्षेत्र की कंपनी में अपनी हिस्सेदारी का कुछ भाग या पूरा हिस्सा बेच दे।",
+    "plain_tamil": "டிஸ்இன்வெஸ்ட்மெண்ட் என்பது அரசு ஒரு பொதுத்துறை நிறுவனத்தில் உள்ள தனது பங்குகளை பகுதியிலோ முழுவதுமோ விற்பது ஆகும்.",
+    "example": "The government may announce disinvestment to raise funds or reduce its role in a company.",
+    "source": "Public sector and budget terminology"
+  },
+  {
+    "term": "ESIC",
+    "plain_english": "ESIC refers to the Employees' State Insurance Corporation, which runs social security and health insurance benefits for eligible workers.",
+    "plain_hindi": "ईएसआईसी का मतलब कर्मचारी राज्य बीमा निगम है, जो पात्र कर्मचारियों को सामाजिक सुरक्षा और स्वास्थ्य बीमा लाभ देता है।",
+    "plain_tamil": "ஈஎஸ்ஐசி என்பது பணியாளர் மாநில காப்பீட்டு கழகத்தை குறிக்கிறது; இது தகுதியான தொழிலாளர்களுக்கு சமூக பாதுகாப்பு மற்றும் சுகாதார காப்பீட்டு நலன்களை வழங்குகிறது.",
+    "example": "A salaried worker in an eligible establishment may receive medical benefits through ESIC.",
+    "source": "Employees' State Insurance scheme terminology"
+  },
+  {
+    "term": "EPF",
+    "plain_english": "EPF or Employees' Provident Fund is a retirement savings scheme where both employee and employer contribute money.",
+    "plain_hindi": "ईपीएफ या कर्मचारी भविष्य निधि एक सेवानिवृत्ति बचत योजना है जिसमें कर्मचारी और नियोक्ता दोनों योगदान करते हैं।",
+    "plain_tamil": "ஈபிஎஃப் அல்லது பணியாளர் பங்களிப்பு நிதி என்பது ஓய்வுபெறும் கால சேமிப்பு திட்டமாகும்; இதில் பணியாளரும் பணியமர்த்துநரும் பணம் செலுத்துவர்.",
+    "example": "Monthly salary slips may show EPF deductions as part of long-term savings.",
+    "source": "Employees' Provident Fund Organisation terminology"
+  },
+  {
+    "term": "TDS",
+    "plain_english": "TDS or Tax Deducted at Source means tax is deducted at the time payment is made, instead of waiting until the end of the year.",
+    "plain_hindi": "टीडीएस या स्रोत पर कर कटौती का मतलब है कि भुगतान करते समय ही कर काट लिया जाता है, साल के अंत तक इंतजार नहीं किया जाता।",
+    "plain_tamil": "டிடிஎஸ் அல்லது மூலத்தில் வரி கழித்தல் என்பது பணம் வழங்கும் நேரத்திலேயே வரி பிடித்தம் செய்யப்படுவது ஆகும்; வருட முடிவை வரை காத்திருக்க வேண்டியதில்லை.",
+    "example": "An employer may deduct TDS from salary before paying it to the employee.",
+    "source": "Income Tax Act terminology"
+  },
+  {
+    "term": "HRA",
+    "plain_english": "HRA or House Rent Allowance is a salary component given by an employer to help cover rented accommodation expenses.",
+    "plain_hindi": "एचआरए या मकान किराया भत्ता वेतन का वह हिस्सा है जो नियोक्ता किराए के घर के खर्च में मदद के लिए देता है।",
+    "plain_tamil": "எச்ஆர்ஏ அல்லது வீட்டு வாடகை கொடுப்பனவு என்பது வாடகை வீட்டுச் செலவுக்கு உதவிட நிறுவனம் வழங்கும் சம்பளத்தின் ஒரு பகுதி ஆகும்.",
+    "example": "A salaried employee paying rent may claim HRA tax benefits if eligible.",
+    "source": "Salary structure and income tax terminology"
+  },
+  {
+    "term": "Section 80C",
+    "plain_english": "Section 80C is a provision of the Income Tax Act that allows tax deductions for certain savings and investments up to the prescribed limit.",
+    "plain_hindi": "धारा 80सी आयकर अधिनियम का प्रावधान है जो कुछ बचत और निवेश पर तय सीमा तक कर कटौती की अनुमति देता है।",
+    "plain_tamil": "பிரிவு 80C என்பது வருமான வரி சட்டத்தின் ஒரு விதியாகும்; இது குறிப்பிட்ட சேமிப்புகள் மற்றும் முதலீடுகளுக்கு நிர்ணயிக்கப்பட்ட வரம்பிற்குள் வரிச்சலுகை தருகிறது.",
+    "example": "Investments in EPF, PPF, or life insurance may qualify for deduction under Section 80C.",
+    "source": "Income Tax Act, 1961"
+  },
+  {
+    "term": "direct benefit transfer",
+    "plain_english": "Direct Benefit Transfer means government benefits are sent directly into the beneficiary's bank account instead of being handed through middle layers.",
+    "plain_hindi": "प्रत्यक्ष लाभ अंतरण का मतलब है कि सरकारी लाभ सीधे लाभार्थी के बैंक खाते में भेजा जाता है, बीच के स्तरों के माध्यम से नहीं।",
+    "plain_tamil": "நேரடி நலன் பரிமாற்றம் என்பது அரசு வழங்கும் நலன்கள் இடைநிலையர்கள் இல்லாமல் நேரடியாக பயனாளியின் வங்கி கணக்கில் செலுத்தப்படுவது ஆகும்.",
+    "example": "A subsidy amount may reach a farmer directly through direct benefit transfer.",
+    "source": "Government welfare delivery terminology"
+  },
+  {
+    "term": "minimum wage",
+    "plain_english": "Minimum wage is the lowest wage that an employer is legally required to pay a worker for work done.",
+    "plain_hindi": "न्यूनतम मजदूरी वह सबसे कम वेतन है जो किसी नियोक्ता को कानूनन कर्मचारी को देना अनिवार्य है।",
+    "plain_tamil": "குறைந்தபட்ச ஊதியம் என்பது ஒரு தொழிலாளிக்கு வேலைக்காக சட்டப்படி வழங்க வேண்டிய குறைந்தபட்ச சம்பளம் ஆகும்.",
+    "example": "If a worker is paid below the notified minimum wage, it may amount to a labour law violation.",
+    "source": "Labour law and wage notification terminology"
+  },
+  {
+    "term": "consumer court",
+    "plain_english": "Consumer court is a forum where consumers can file complaints about defective goods, poor services, or unfair trade practices.",
+    "plain_hindi": "उपभोक्ता अदालत वह मंच है जहां उपभोक्ता खराब सामान, खराब सेवा या अनुचित व्यापार व्यवहार के खिलाफ शिकायत कर सकते हैं।",
+    "plain_tamil": "நுகர்வோர் நீதிமன்றம் என்பது பழுதான பொருட்கள், மோசமான சேவைகள் அல்லது அநியாய வணிக நடைமுறைகள் குறித்து நுகர்வோர் புகார் அளிக்கக்கூடிய மேடை ஆகும்.",
+    "example": "A customer can approach consumer court if a seller refuses to address a serious product defect.",
+    "source": "Consumer Protection Act terminology"
+  },
+  {
+    "term": "ration card",
+    "plain_english": "A ration card is an official document used by eligible households to access subsidized food grains and related public distribution benefits.",
+    "plain_hindi": "राशन कार्ड एक आधिकारिक दस्तावेज है जिसके जरिए पात्र परिवार सस्ती दर पर अनाज और सार्वजनिक वितरण प्रणाली के लाभ प्राप्त करते हैं।",
+    "plain_tamil": "ரேஷன் அட்டை என்பது தகுதியான குடும்பங்கள் மானிய விலையில் உணவுத் தானியங்கள் மற்றும் பொது விநியோக நலன்களை பெற பயன்படும் அதிகாரப்பூர்வ ஆவணம் ஆகும்.",
+    "example": "A family may use its ration card to collect rice or wheat from a fair price shop.",
+    "source": "Public Distribution System terminology"
+  },
+  {
+    "term": "domicile certificate",
+    "plain_english": "A domicile certificate is an official document showing that a person is a resident of a particular state or region.",
+    "plain_hindi": "अधिवास प्रमाण पत्र एक आधिकारिक दस्तावेज है जो बताता है कि कोई व्यक्ति किसी विशेष राज्य या क्षेत्र का निवासी है।",
+    "plain_tamil": "டொமிசைல் சான்றிதழ் என்பது ஒருவர் குறிப்பிட்ட மாநிலம் அல்லது பகுதியின் நிரந்தர குடியிருப்பாளர் என்பதை காட்டும் அதிகாரப்பூர்வ ஆவணம் ஆகும்.",
+    "example": "A student may need a domicile certificate to apply for a state quota benefit.",
+    "source": "State residence certification terminology"
+  },
+  {
+    "term": "affidavit",
+    "plain_english": "An affidavit is a written statement of facts that a person swears or affirms to be true.",
+    "plain_hindi": "शपथ पत्र एक लिखित बयान है जिसमें व्यक्ति तथ्यों को सत्य होने की शपथ लेता या पुष्टि करता है।",
+    "plain_tamil": "அஃபிடவிட் என்பது ஒருவர் அதிலுள்ள தகவல்கள் உண்மை என்று சத்தியமாக உறுதி செய்யும் எழுத்துப்பூர்வ அறிக்கை ஆகும்.",
+    "example": "An affidavit may be submitted to support a name correction or address declaration.",
+    "source": "Court and documentation terminology"
+  },
+  {
+    "term": "income tax return",
+    "plain_english": "An income tax return is the form filed with the tax department showing income earned, tax paid, and any refund or balance due.",
+    "plain_hindi": "आयकर रिटर्न वह फॉर्म है जो कर विभाग के पास दाखिल किया जाता है, जिसमें आय, चुकाया गया कर और रिफंड या बकाया राशि की जानकारी होती है।",
+    "plain_tamil": "வருமான வரி அறிக்கை என்பது வரித்துறைக்கு தாக்கல் செய்யப்படும் படிவமாகும்; இதில் வருமானம், செலுத்திய வரி மற்றும் திருப்பிச் செலுத்தல் அல்லது நிலுவை விவரங்கள் இருக்கும்.",
+    "example": "A salaried person may file an income tax return every year even if no extra tax is payable.",
+    "source": "Income tax filing terminology"
+  },
+  {
+    "term": "GST",
+    "plain_english": "GST or Goods and Services Tax is an indirect tax charged on the supply of most goods and services in India.",
+    "plain_hindi": "जीएसटी या वस्तु एवं सेवा कर भारत में अधिकांश वस्तुओं और सेवाओं की आपूर्ति पर लगाया जाने वाला अप्रत्यक्ष कर है।",
+    "plain_tamil": "ஜிஎஸ்டி அல்லது பொருட்கள் மற்றும் சேவைகள் வரி என்பது இந்தியாவில் பெரும்பாலான பொருட்கள் மற்றும் சேவைகள் வழங்கப்படும்போது விதிக்கப்படும் மறைமுக வரி ஆகும்.",
+    "example": "A shop bill may separately mention the GST charged on the purchase.",
+    "source": "Goods and Services Tax framework"
+  },
+  {
+    "term": "Ayushman Bharat",
+    "plain_english": "Ayushman Bharat is a government health initiative that includes health coverage support for eligible families and strengthened primary care services.",
+    "plain_hindi": "आयुष्मान भारत एक सरकारी स्वास्थ्य पहल है जो पात्र परिवारों के लिए स्वास्थ्य कवरेज सहायता और प्राथमिक स्वास्थ्य सेवाओं को मजबूत करने का काम करती है।",
+    "plain_tamil": "ஆயுஷ்மான் பாரத் என்பது தகுதியான குடும்பங்களுக்கு சுகாதார பாதுகாப்பு உதவி மற்றும் முதன்மை சுகாதார சேவைகளை வலுப்படுத்தும் அரசு திட்டம் ஆகும்.",
+    "example": "An eligible family may use an Ayushman Bharat card for cashless treatment at empanelled hospitals.",
+    "source": "Government of India health scheme terminology"
+  },
+  {
+    "term": "PM-Kisan",
+    "plain_english": "PM-Kisan is a central government income support scheme under which eligible farmer families receive financial assistance in instalments.",
+    "plain_hindi": "पीएम-किसान केंद्र सरकार की आय सहायता योजना है, जिसके तहत पात्र किसान परिवारों को किस्तों में वित्तीय सहायता दी जाती है।",
+    "plain_tamil": "பிஎம்-கிசான் என்பது தகுதியான விவசாயக் குடும்பங்களுக்கு தவணைகளில் நிதி உதவி வழங்கும் மத்திய அரசு வருவாய் ஆதரவு திட்டம் ஆகும்.",
+    "example": "A registered farmer may receive PM-Kisan instalments directly into a bank account.",
+    "source": "Pradhan Mantri Kisan Samman Nidhi terminology"
+  },
+  {
+    "term": "MGNREGA",
+    "plain_english": "MGNREGA is a rural employment law and scheme that guarantees a certain number of days of wage work to eligible rural households.",
+    "plain_hindi": "मनरेगा एक ग्रामीण रोजगार कानून और योजना है जो पात्र ग्रामीण परिवारों को निश्चित दिनों का मजदूरी वाला काम देने की गारंटी देती है।",
+    "plain_tamil": "எம்ஜிஎன்ஆர்இஜிஏ என்பது தகுதியான கிராமப்புற குடும்பங்களுக்கு குறிப்பிட்ட நாட்கள் கூலி வேலை வழங்கும் உறுதியை தரும் கிராமப்புற வேலைவாய்ப்பு சட்டம் மற்றும் திட்டம் ஆகும்.",
+    "example": "A rural household may apply for job work under MGNREGA through the local panchayat.",
+    "source": "Mahatma Gandhi National Rural Employment Guarantee Act"
+  },
+  {
+    "term": "Aadhaar",
+    "plain_english": "Aadhaar is a 12-digit identity number issued to residents of India and used for identification and service access in many schemes.",
+    "plain_hindi": "आधार भारत के निवासियों को जारी की जाने वाली 12 अंकों की पहचान संख्या है, जिसका उपयोग पहचान और कई सेवाओं तक पहुंच के लिए किया जाता है।",
+    "plain_tamil": "ஆதார் என்பது இந்தியாவில் வசிப்பவர்களுக்கு வழங்கப்படும் 12 இலக்க அடையாள எண் ஆகும்; இது அடையாளம் உறுதி மற்றும் பல சேவைகளுக்கான அணுகலில் பயன்படுத்தப்படுகிறது.",
+    "example": "A person may use Aadhaar for identity verification while opening a bank account.",
+    "source": "UIDAI public terminology"
+  },
+  {
+    "term": "PAN",
+    "plain_english": "PAN or Permanent Account Number is a tax identification number used to track financial and tax-related transactions.",
+    "plain_hindi": "पैन या स्थायी खाता संख्या एक कर पहचान संख्या है जिसका उपयोग वित्तीय और कर संबंधी लेनदेन को ट्रैक करने के लिए होता है।",
+    "plain_tamil": "பான் அல்லது நிரந்தர கணக்கு எண் என்பது நிதி மற்றும் வரி தொடர்பான பரிவர்த்தனைகளை கண்காணிக்க பயன்படுத்தப்படும் வரி அடையாள எண் ஆகும்.",
+    "example": "PAN is often required for filing income tax returns or making certain high-value transactions.",
+    "source": "Income Tax Department terminology"
+  },
+  {
+    "term": "e-KYC",
+    "plain_english": "e-KYC means electronic Know Your Customer verification, used to confirm a person's identity digitally.",
+    "plain_hindi": "ई-केवाईसी का मतलब इलेक्ट्रॉनिक नो योर कस्टमर सत्यापन है, जिसका उपयोग किसी व्यक्ति की पहचान को डिजिटल रूप से सत्यापित करने के लिए किया जाता है।",
+    "plain_tamil": "இ-கேஒய்சி என்பது மின்னணு 'உங்கள் வாடிக்கையாளரை அறிதல்' சரிபார்ப்பு ஆகும்; இது ஒருவரின் அடையாளத்தை டிஜிட்டலாக உறுதிப்படுத்த பயன்படுகிறது.",
+    "example": "A telecom company may complete e-KYC before activating a new connection.",
+    "source": "Digital identity and financial compliance terminology"
+  },
+  {
+    "term": "cognizable offence",
+    "plain_english": "A cognizable offence is a serious offence for which police can register a case and make an arrest without prior court permission, subject to law.",
+    "plain_hindi": "संज्ञेय अपराध वह गंभीर अपराध है जिसमें पुलिस कानून के अनुसार बिना पहले अदालत की अनुमति के मामला दर्ज कर सकती है और गिरफ्तारी कर सकती है।",
+    "plain_tamil": "காக்னிசபிள் குற்றம் என்பது காவல்துறை முன் நீதிமன்ற அனுமதி இன்றி வழக்கு பதிவு செய்து கைது செய்யக்கூடிய வகை குற்றமாகும்; இது சட்ட வரம்புகளுக்கு உட்பட்டது.",
+    "example": "Many serious crimes such as robbery are treated as cognizable offences.",
+    "source": "Criminal procedure terminology"
+  },
+  {
+    "term": "bailable offence",
+    "plain_english": "A bailable offence is an offence in which bail can generally be claimed as a matter of right, subject to legal procedure.",
+    "plain_hindi": "जमानती अपराध वह अपराध है जिसमें कानूनी प्रक्रिया के अनुसार सामान्यतः जमानत अधिकार के रूप में मिल सकती है।",
+    "plain_tamil": "பெயிலில் விடத்தக்க குற்றம் என்பது சட்ட நடைமுறைக்கு உட்பட்டு பொதுவாக ஜாமீன் உரிமையாகக் கோரக்கூடிய குற்றம் ஆகும்.",
+    "example": "For a bailable offence, the accused may be released on bail after completing formalities.",
+    "source": "Criminal law terminology"
+  },
+  {
+    "term": "non-bailable offence",
+    "plain_english": "A non-bailable offence is an offence in which bail is not automatic and is decided by the court based on law and facts.",
+    "plain_hindi": "गैर-जमानती अपराध वह अपराध है जिसमें जमानत स्वतः नहीं मिलती और अदालत कानून व तथ्यों के आधार पर निर्णय लेती है।",
+    "plain_tamil": "ஜாமீன் தானாக கிடைக்காத குற்றம் என்பது நீதிமன்றம் சட்டமும் உண்மை நிலைகளும் பார்த்து தீர்மானிக்கும் குற்றம் ஆகும்.",
+    "example": "In a non-bailable offence, the court examines the seriousness of the case before granting bail.",
+    "source": "Criminal law terminology"
+  },
+  {
+    "term": "show cause notice",
+    "plain_english": "A show cause notice is an official notice asking a person or organization to explain why action should not be taken against them.",
+    "plain_hindi": "कारण बताओ नोटिस एक आधिकारिक सूचना है जिसमें किसी व्यक्ति या संस्था से पूछा जाता है कि उनके खिलाफ कार्रवाई क्यों न की जाए।",
+    "plain_tamil": "காரணம் விளக்க நோட்டீஸ் என்பது ஒருவருக்கு அல்லது நிறுவனத்திற்கு எதிராக ஏன் நடவடிக்கை எடுக்கக் கூடாது என்று விளக்கம் கேட்கும் அதிகாரப்பூர்வ அறிவிப்பு ஆகும்.",
+    "example": "A department may issue a show cause notice before cancelling a licence.",
+    "source": "Administrative and regulatory procedure terminology"
+  },
+  {
+    "term": "gratuity",
+    "plain_english": "Gratuity is a lump-sum payment made by an employer to an employee as a benefit for long service, subject to eligibility rules.",
+    "plain_hindi": "ग्रेच्युटी एकमुश्त राशि है जो नियोक्ता लंबे समय की सेवा के बदले पात्र कर्मचारी को लाभ के रूप में देता है।",
+    "plain_tamil": "கிராசுட்டி என்பது நீண்டகால சேவைக்கான நலனாக, தகுதியுள்ள பணியாளருக்கு நிறுவனம் வழங்கும் ஒருமுறை தொகை ஆகும்.",
+    "example": "An employee completing the required years of service may become eligible for gratuity.",
+    "source": "Payment of Gratuity Act terminology"
+  },
+  {
+    "term": "mutation",
+    "plain_english": "Mutation is the process of updating government land or property records after ownership changes.",
+    "plain_hindi": "म्यूटेशन वह प्रक्रिया है जिसमें स्वामित्व बदलने के बाद जमीन या संपत्ति के सरकारी रिकॉर्ड अपडेट किए जाते हैं।",
+    "plain_tamil": "மியூட்டேஷன் என்பது சொத்து உரிமை மாறிய பிறகு அரசு நில அல்லது சொத்து பதிவுகளை புதுப்பிக்கும் செயல்முறை ஆகும்.",
+    "example": "After buying land, the new owner may apply for mutation in local records.",
+    "source": "Land revenue and property records terminology"
+  },
+  {
+    "term": "stamp duty",
+    "plain_english": "Stamp duty is a tax paid on certain legal documents, especially those related to property or transactions.",
+    "plain_hindi": "स्टांप ड्यूटी कुछ कानूनी दस्तावेजों पर लगाया जाने वाला कर है, खासकर संपत्ति या लेनदेन से जुड़े दस्तावेजों पर।",
+    "plain_tamil": "ஸ்டாம்ப் டியூட்டி என்பது குறிப்பிட்ட சட்ட ஆவணங்கள், குறிப்பாக சொத்து அல்லது பரிவர்த்தனை தொடர்பான ஆவணங்கள் மீது செலுத்தப்படும் வரி ஆகும்.",
+    "example": "A property buyer usually pays stamp duty when registering the sale deed.",
+    "source": "State registration and revenue terminology"
+  },
+  {
+    "term": "sale deed",
+    "plain_english": "A sale deed is the legal document that transfers ownership of property from the seller to the buyer.",
+    "plain_hindi": "बिक्री विलेख वह कानूनी दस्तावेज है जो संपत्ति का स्वामित्व विक्रेता से खरीदार को स्थानांतरित करता है।",
+    "plain_tamil": "விற்பனை ஆவணம் என்பது சொத்து உரிமையை விற்பவரிடமிருந்து வாங்குபவருக்கு மாற்றும் சட்டப்பூர்வ ஆவணம் ஆகும்.",
+    "example": "A registered sale deed is an important record in a property purchase.",
+    "source": "Property transfer terminology"
+  },
+  {
+    "term": "income certificate",
+    "plain_english": "An income certificate is an official document stating a person's or family's income for a given period.",
+    "plain_hindi": "आय प्रमाण पत्र एक आधिकारिक दस्तावेज है जो किसी व्यक्ति या परिवार की एक निश्चित अवधि की आय बताता है।",
+    "plain_tamil": "வருமானச் சான்றிதழ் என்பது ஒரு நபர் அல்லது குடும்பத்தின் குறிப்பிட்ட கால வருமானத்தை காட்டும் அதிகாரப்பூர்வ ஆவணம் ஆகும்.",
+    "example": "An income certificate may be needed to apply for scholarship or welfare benefits.",
+    "source": "Public service delivery terminology"
+  }
+]

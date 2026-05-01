@@ -1,0 +1,1142 @@
+[
+  {
+    "document": "Indian_Constitution_Part_III_Fundamental_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:09.772295",
+    "error": "Failed to read PDF file 'data\\raw\\Indian_Constitution_Part_III_Fundamental_Rights.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Bharatiya_Nyaya_Sanhita_2023_Criminal_Code.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:10.948061",
+    "error": "Download failed"
+  },
+  {
+    "document": "Right_to_Information_RTI_Complete_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:12.312908",
+    "error": "Download failed"
+  },
+  {
+    "document": "Criminal_Procedure_Code_2023_CrPC.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:15.902390",
+    "error": "Failed to read PDF file 'data\\raw\\Criminal_Procedure_Code_2023_CrPC.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Indian_Penal_Code_Remaining_Provisions.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:16.932878",
+    "error": "Download failed"
+  },
+  {
+    "document": "Consumer_Protection_Act_2019.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:19.493709",
+    "error": "Download failed"
+  },
+  {
+    "document": "Hindu_Marriage_Act_1955.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:50.582923",
+    "error": "Download failed"
+  },
+  {
+    "document": "Tenancy_Rights_and_Eviction_Laws.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:51.640718",
+    "error": "Download failed"
+  },
+  {
+    "document": "Succession_and_Will_Laws_India.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:53.293930",
+    "error": "Failed to read PDF file 'data\\raw\\Succession_and_Will_Laws_India.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Labor_Code_2023_Employment_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:53.548553",
+    "error": "Download failed"
+  },
+  {
+    "document": "Income_Tax_Act_2024_Citizen_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:55.351226",
+    "error": "Download failed"
+  },
+  {
+    "document": "Union_Budget_2024_25_Citizen_Summary.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:56.047609",
+    "error": "Download failed"
+  },
+  {
+    "document": "GST_Complete_Citizen_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:56.806600",
+    "error": "Download failed"
+  },
+  {
+    "document": "Pradhan_Mantri_Jan_Dhan_Yojana.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:57.993465",
+    "error": "Failed to read PDF file 'data\\raw\\Pradhan_Mantri_Jan_Dhan_Yojana.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Digital_India_Scheme_and_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:38:59.834085",
+    "error": "Download failed"
+  },
+  {
+    "document": "Startup_India_Scheme_Complete_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:03.908707",
+    "error": "Download failed"
+  },
+  {
+    "document": "Public_Provident_Fund_PPF_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:04.165983",
+    "error": "Download failed"
+  },
+  {
+    "document": "Sukanya_Samriddhi_Yojana_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:04.194774",
+    "error": "Download failed"
+  },
+  {
+    "document": "Senior_Citizen_Savings_Scheme_SCSS.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:04.220968",
+    "error": "Download failed"
+  },
+  {
+    "document": "Ayushman_Bharat_PM_JAY_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:06.410370",
+    "error": "Download failed"
+  },
+  {
+    "document": "National_Health_Mission_and_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:10.628962",
+    "error": "Failed to read PDF file 'data\\raw\\National_Health_Mission_and_Services.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "COVID_19_Vaccination_and_Safety.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:11.868904",
+    "error": "Failed to read PDF file 'data\\raw\\COVID_19_Vaccination_and_Safety.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Mental_Health_Support_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:12.016379",
+    "error": "Download failed"
+  },
+  {
+    "document": "Reproductive_Health_and_Family_Planning.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:12.113592",
+    "error": "Download failed"
+  },
+  {
+    "document": "Disability_Rights_and_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:13.148089",
+    "error": "Download failed"
+  },
+  {
+    "document": "PM_KISAN_Samman_Nidhi_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:15.905005",
+    "error": "Download failed"
+  },
+  {
+    "document": "National_Food_Security_Act.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:17.438395",
+    "error": "Download failed"
+  },
+  {
+    "document": "Indira_Gandhi_National_Widow_Pension.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:17.539322",
+    "error": "Download failed"
+  },
+  {
+    "document": "Scholarship_Schemes_for_Students.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:18.256007",
+    "error": "Download failed"
+  },
+  {
+    "document": "Beti_Bachao_Beti_Padhao_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:18.809177",
+    "error": "Download failed"
+  },
+  {
+    "document": "Ujjwala_Scheme_Free_LPG_Connection.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:20.124818",
+    "error": "Download failed"
+  },
+  {
+    "document": "Pradhan_Mantri_Awas_Yojana.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:20.314909",
+    "error": "Download failed"
+  },
+  {
+    "document": "MUDRA_Loan_for_Small_Business.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:20.612579",
+    "error": "Download failed"
+  },
+  {
+    "document": "National_Education_Policy_2020.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:20.782540",
+    "error": "Download failed"
+  },
+  {
+    "document": "Mid_Day_Meal_Scheme_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:20.921442",
+    "error": "Download failed"
+  },
+  {
+    "document": "ICDS_Integrated_Child_Development_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:22.139305",
+    "error": "Download failed"
+  },
+  {
+    "document": "AADHAR_Education_Link_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:22.251716",
+    "error": "Download failed"
+  },
+  {
+    "document": "National_Apprenticeship_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:22.457491",
+    "error": "Download failed"
+  },
+  {
+    "document": "Soil_Health_Card_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:24.505566",
+    "error": "Failed to read PDF file 'data\\raw\\Soil_Health_Card_Scheme.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Crop_Insurance_Scheme_PMFBY.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:25.923706",
+    "error": "Failed to read PDF file 'data\\raw\\Crop_Insurance_Scheme_PMFBY.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Organic_Farming_and_Subsidies.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:28.260177",
+    "error": "Download failed"
+  },
+  {
+    "document": "Irrigation_and_Water_Management.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:28.399324",
+    "error": "Download failed"
+  },
+  {
+    "document": "Farmer_Training_and_Support_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:29.713221",
+    "error": "Download failed"
+  },
+  {
+    "document": "MAREGA_Employment_Guarantee_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:30.338342",
+    "error": "Download failed"
+  },
+  {
+    "document": "Pradhan_Mantri_Kaushal_Vikas_Yojana.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:30.549353",
+    "error": "Download failed"
+  },
+  {
+    "document": "Employee_State_Insurance_ESI_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:32.079850",
+    "error": "Download failed"
+  },
+  {
+    "document": "Provident_Fund_Withdrawal_and_Rules.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:33.243497",
+    "error": "Failed to read PDF file 'data\\raw\\Provident_Fund_Withdrawal_and_Rules.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Maternity_and_Paternity_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:33.755622",
+    "error": "Download failed"
+  },
+  {
+    "document": "Housing_and_Urban_Affairs_Programs.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:36.321897",
+    "error": "Failed to read PDF file 'data\\raw\\Housing_and_Urban_Affairs_Programs.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Property_Registration_and_Legal_Requirements.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:37.916889",
+    "error": "Failed to read PDF file 'data\\raw\\Property_Registration_and_Legal_Requirements.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Right_to_Fair_Compensation_Land_Act.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:40.282851",
+    "error": "Failed to read PDF file 'data\\raw\\Right_to_Fair_Compensation_Land_Act.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Smart_Cities_Mission_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:47.138497",
+    "error": "Download failed"
+  },
+  {
+    "document": "Environmental_Protection_Act_Citizen_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:47.239551",
+    "error": "Download failed"
+  },
+  {
+    "document": "Climate_Action_and_Sustainability.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:47.269528",
+    "error": "Download failed"
+  },
+  {
+    "document": "Water_Conservation_and_Management.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:47.298591",
+    "error": "Download failed"
+  },
+  {
+    "document": "Forestry_and_Wildlife_Protection.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:48.335464",
+    "error": "Download failed"
+  },
+  {
+    "document": "Waste_Management_and_Recycling.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:48.366333",
+    "error": "Download failed"
+  },
+  {
+    "document": "Motor_Vehicles_Act_2019_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:49.192171",
+    "error": "Download failed"
+  },
+  {
+    "document": "Road_Safety_and_Accident_Compensation.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:49.490743",
+    "error": "Download failed"
+  },
+  {
+    "document": "Public_Transport_Services_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:49.699484",
+    "error": "Download failed"
+  },
+  {
+    "document": "Aviation_and_Flight_Passenger_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:51.247024",
+    "error": "Download failed"
+  },
+  {
+    "document": "Telecommunication_and_Consumer_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:39:55.242752",
+    "error": "Download failed"
+  },
+  {
+    "document": "Indian_Constitution_Part_III_Fundamental_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:49:59.225484",
+    "error": "Failed to read PDF file 'data\\raw\\Indian_Constitution_Part_III_Fundamental_Rights.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Bharatiya_Nyaya_Sanhita_2023_Criminal_Code.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:49:59.755586",
+    "error": "Download failed"
+  },
+  {
+    "document": "Right_to_Information_RTI_Complete_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:00.800973",
+    "error": "Download failed"
+  },
+  {
+    "document": "Criminal_Procedure_Code_2023_CrPC.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:00.822356",
+    "error": "Failed to read PDF file 'data\\raw\\Criminal_Procedure_Code_2023_CrPC.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Indian_Penal_Code_Remaining_Provisions.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:01.357796",
+    "error": "Download failed"
+  },
+  {
+    "document": "Consumer_Protection_Act_2019.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:03.803152",
+    "error": "Download failed"
+  },
+  {
+    "document": "Hindu_Marriage_Act_1955.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:35.343821",
+    "error": "Download failed"
+  },
+  {
+    "document": "Tenancy_Rights_and_Eviction_Laws.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:36.003037",
+    "error": "Download failed"
+  },
+  {
+    "document": "Succession_and_Will_Laws_India.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:36.030277",
+    "error": "Failed to read PDF file 'data\\raw\\Succession_and_Will_Laws_India.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Labor_Code_2023_Employment_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:36.124055",
+    "error": "Download failed"
+  },
+  {
+    "document": "Income_Tax_Act_2024_Citizen_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:42.008523",
+    "error": "Download failed"
+  },
+  {
+    "document": "Union_Budget_2024_25_Citizen_Summary.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:42.532329",
+    "error": "Download failed"
+  },
+  {
+    "document": "GST_Complete_Citizen_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:43.882091",
+    "error": "Download failed"
+  },
+  {
+    "document": "Pradhan_Mantri_Jan_Dhan_Yojana.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:43.911069",
+    "error": "Failed to read PDF file 'data\\raw\\Pradhan_Mantri_Jan_Dhan_Yojana.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Digital_India_Scheme_and_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:45.594097",
+    "error": "Download failed"
+  },
+  {
+    "document": "Startup_India_Scheme_Complete_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:47.712055",
+    "error": "Download failed"
+  },
+  {
+    "document": "Public_Provident_Fund_PPF_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:47.743813",
+    "error": "Download failed"
+  },
+  {
+    "document": "Sukanya_Samriddhi_Yojana_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:47.834571",
+    "error": "Download failed"
+  },
+  {
+    "document": "Senior_Citizen_Savings_Scheme_SCSS.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:47.864698",
+    "error": "Download failed"
+  },
+  {
+    "document": "Ayushman_Bharat_PM_JAY_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:49.119074",
+    "error": "Download failed"
+  },
+  {
+    "document": "National_Health_Mission_and_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:50.159870",
+    "error": "Failed to read PDF file 'data\\raw\\National_Health_Mission_and_Services.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "COVID_19_Vaccination_and_Safety.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:50.187976",
+    "error": "Failed to read PDF file 'data\\raw\\COVID_19_Vaccination_and_Safety.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Mental_Health_Support_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:50.290311",
+    "error": "Download failed"
+  },
+  {
+    "document": "Reproductive_Health_and_Family_Planning.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:50.393987",
+    "error": "Download failed"
+  },
+  {
+    "document": "Disability_Rights_and_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:50.699417",
+    "error": "Download failed"
+  },
+  {
+    "document": "PM_KISAN_Samman_Nidhi_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:52.212868",
+    "error": "Download failed"
+  },
+  {
+    "document": "National_Food_Security_Act.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:52.865325",
+    "error": "Download failed"
+  },
+  {
+    "document": "Indira_Gandhi_National_Widow_Pension.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:52.975820",
+    "error": "Download failed"
+  },
+  {
+    "document": "Scholarship_Schemes_for_Students.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:53.577426",
+    "error": "Download failed"
+  },
+  {
+    "document": "Beti_Bachao_Beti_Padhao_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:53.687594",
+    "error": "Download failed"
+  },
+  {
+    "document": "Ujjwala_Scheme_Free_LPG_Connection.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:54.740273",
+    "error": "Download failed"
+  },
+  {
+    "document": "Pradhan_Mantri_Awas_Yojana.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:54.906673",
+    "error": "Download failed"
+  },
+  {
+    "document": "MUDRA_Loan_for_Small_Business.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:55.270070",
+    "error": "Download failed"
+  },
+  {
+    "document": "National_Education_Policy_2020.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:55.410606",
+    "error": "Download failed"
+  },
+  {
+    "document": "Mid_Day_Meal_Scheme_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:55.506266",
+    "error": "Download failed"
+  },
+  {
+    "document": "ICDS_Integrated_Child_Development_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:56.549148",
+    "error": "Download failed"
+  },
+  {
+    "document": "AADHAR_Education_Link_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:56.675406",
+    "error": "Download failed"
+  },
+  {
+    "document": "National_Apprenticeship_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:56.706400",
+    "error": "Download failed"
+  },
+  {
+    "document": "Soil_Health_Card_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:56.729134",
+    "error": "Failed to read PDF file 'data\\raw\\Soil_Health_Card_Scheme.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Crop_Insurance_Scheme_PMFBY.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:56.759943",
+    "error": "Failed to read PDF file 'data\\raw\\Crop_Insurance_Scheme_PMFBY.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Organic_Farming_and_Subsidies.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:58.129233",
+    "error": "Download failed"
+  },
+  {
+    "document": "Irrigation_and_Water_Management.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:58.188899",
+    "error": "Download failed"
+  },
+  {
+    "document": "Farmer_Training_and_Support_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:50:58.826192",
+    "error": "Download failed"
+  },
+  {
+    "document": "MAREGA_Employment_Guarantee_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:00.069153",
+    "error": "Download failed"
+  },
+  {
+    "document": "Pradhan_Mantri_Kaushal_Vikas_Yojana.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:00.226304",
+    "error": "Download failed"
+  },
+  {
+    "document": "Employee_State_Insurance_ESI_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:02.192186",
+    "error": "Download failed"
+  },
+  {
+    "document": "Provident_Fund_Withdrawal_and_Rules.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:02.237711",
+    "error": "Failed to read PDF file 'data\\raw\\Provident_Fund_Withdrawal_and_Rules.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Maternity_and_Paternity_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:02.527822",
+    "error": "Download failed"
+  },
+  {
+    "document": "Housing_and_Urban_Affairs_Programs.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:02.548749",
+    "error": "Failed to read PDF file 'data\\raw\\Housing_and_Urban_Affairs_Programs.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Property_Registration_and_Legal_Requirements.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:02.572128",
+    "error": "Failed to read PDF file 'data\\raw\\Property_Registration_and_Legal_Requirements.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Right_to_Fair_Compensation_Land_Act.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:03.667737",
+    "error": "Failed to read PDF file 'data\\raw\\Right_to_Fair_Compensation_Land_Act.pdf': Stream has ended unexpectedly"
+  },
+  {
+    "document": "Smart_Cities_Mission_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:09.398061",
+    "error": "Download failed"
+  },
+  {
+    "document": "Environmental_Protection_Act_Citizen_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:09.547445",
+    "error": "Download failed"
+  },
+  {
+    "document": "Climate_Action_and_Sustainability.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:09.577679",
+    "error": "Download failed"
+  },
+  {
+    "document": "Water_Conservation_and_Management.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:09.609611",
+    "error": "Download failed"
+  },
+  {
+    "document": "Forestry_and_Wildlife_Protection.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:10.659455",
+    "error": "Download failed"
+  },
+  {
+    "document": "Waste_Management_and_Recycling.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:10.682249",
+    "error": "Download failed"
+  },
+  {
+    "document": "Motor_Vehicles_Act_2019_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:10.858373",
+    "error": "Download failed"
+  },
+  {
+    "document": "Road_Safety_and_Accident_Compensation.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:12.109458",
+    "error": "Download failed"
+  },
+  {
+    "document": "Public_Transport_Services_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:12.319664",
+    "error": "Download failed"
+  },
+  {
+    "document": "Aviation_and_Flight_Passenger_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:13.598952",
+    "error": "Download failed"
+  },
+  {
+    "document": "Telecommunication_and_Consumer_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:51:16.455369",
+    "error": "Download failed"
+  },
+  {
+    "document": "Indian_Constitution_Part_III_Fundamental_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:57:21.671025",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Bharatiya_Nyaya_Sanhita_2023_Criminal_Code.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:57:23.170789",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Right_to_Information_RTI_Complete_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:57:25.474632",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Criminal_Procedure_Code_2023_CrPC.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:57:31.706234",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Indian_Penal_Code_Remaining_Provisions.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:57:33.363127",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Consumer_Protection_Act_2019.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:57:59.840139",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Hindu_Marriage_Act_1955.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:31.705290",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Tenancy_Rights_and_Eviction_Laws.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:33.601858",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Succession_and_Will_Laws_India.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:34.781426",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Labor_Code_2023_Employment_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:35.443271",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Income_Tax_Act_2024_Citizen_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:37.675486",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Union_Budget_2024_25_Citizen_Summary.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:39.012640",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "GST_Complete_Citizen_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:40.552714",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Pradhan_Mantri_Jan_Dhan_Yojana.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:41.778936",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Digital_India_Scheme_and_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:44.323694",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Startup_India_Scheme_Complete_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:46.994272",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Public_Provident_Fund_PPF_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:47.711140",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Sukanya_Samriddhi_Yojana_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:48.428542",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Senior_Citizen_Savings_Scheme_SCSS.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:49.140040",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Ayushman_Bharat_PM_JAY_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:52.340908",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "National_Health_Mission_and_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:58.110182",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Indian_Constitution_Part_III_Fundamental_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:58.538013",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "COVID_19_Vaccination_and_Safety.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:58:59.311309",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Mental_Health_Support_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:00.060262",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Reproductive_Health_and_Family_Planning.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:00.809710",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Disability_Rights_and_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:01.856437",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "PM_KISAN_Samman_Nidhi_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:03.897449",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "National_Food_Security_Act.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:05.224776",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Indira_Gandhi_National_Widow_Pension.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:06.148734",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Scholarship_Schemes_for_Students.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:08.107009",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Beti_Bachao_Beti_Padhao_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:08.822482",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Ujjwala_Scheme_Free_LPG_Connection.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:10.566535",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Pradhan_Mantri_Awas_Yojana.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:11.370159",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "MUDRA_Loan_for_Small_Business.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:12.253739",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "National_Education_Policy_2020.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:12.963576",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Mid_Day_Meal_Scheme_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:13.710206",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "ICDS_Integrated_Child_Development_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:15.666395",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "AADHAR_Education_Link_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:16.424655",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "National_Apprenticeship_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:17.306966",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Soil_Health_Card_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:18.321765",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Indian_Constitution_Part_III_Fundamental_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:19.353335",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Crop_Insurance_Scheme_PMFBY.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:19.792030",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Organic_Farming_and_Subsidies.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:21.904057",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Irrigation_and_Water_Management.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:22.591724",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Farmer_Training_and_Support_Services.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:24.060813",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "MAREGA_Employment_Guarantee_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:25.076915",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Pradhan_Mantri_Kaushal_Vikas_Yojana.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:25.871739",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Employee_State_Insurance_ESI_Scheme.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:28.470891",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Provident_Fund_Withdrawal_and_Rules.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:36.145417",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Maternity_and_Paternity_Benefits.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:37.210787",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Housing_and_Urban_Affairs_Programs.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:39.926054",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Property_Registration_and_Legal_Requirements.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:41.669008",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Right_to_Fair_Compensation_Land_Act.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:44.432588",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Smart_Cities_Mission_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:52.044545",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Environmental_Protection_Act_Citizen_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:52.736719",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Climate_Action_and_Sustainability.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:53.607999",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Water_Conservation_and_Management.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:54.379772",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Forestry_and_Wildlife_Protection.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:56.223789",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Waste_Management_and_Recycling.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:56.955230",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Motor_Vehicles_Act_2019_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:58.361301",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Road_Safety_and_Accident_Compensation.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T10:59:59.180468",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Public_Transport_Services_Guide.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T11:00:00.128720",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Aviation_and_Flight_Passenger_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T11:00:02.255436",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Telecommunication_and_Consumer_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T11:00:07.294941",
+    "error": "'SamajhVectorStore' object has no attribute 'add_documents'"
+  },
+  {
+    "document": "Indian_Constitution_Part_III_Fundamental_Rights.pdf",
+    "status": "FAILED",
+    "timestamp": "2026-04-17T11:16:41.391147",
+    "error": "'MultilingualEmbedder' object has no attribute 'embed_documents'"
+  },
+  {
+    "document": "Indian_Constitution_Part_III_Fundamental_Rights.pdf",
+    "status": "SUCCESS",
+    "timestamp": "2026-04-17T11:18:09.595052",
+    "error": null
+  }
+]
