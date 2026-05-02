@@ -7,7 +7,7 @@ Generates contextual, action-oriented follow-up questions based on:
 3. The type of document/issue
 4. Available sources and information
 
-This replaces generic "Tell me more" with specific next steps.
+This replaces generic "Tell me more" and ok with specific next steps.
 """
 
 from typing import List, Dict, Any
