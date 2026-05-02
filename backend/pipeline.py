@@ -52,6 +52,11 @@ from backend.vectorstore.chroma_store import SamajhVectorStore
 from backend.generator.rag_generator import SamajhGenerator
 from backend.generator.suggested_questions import suggested_questions_gen
 from backend.jargon.jargon_engine import jargon_engine
+from backend.web_search_engine import (
+    create_web_source_cards,
+    generate_web_answer,
+    search_government_websites,
+)
 from backend.utils.config import config
 
 
@@ -273,36 +278,34 @@ class SamajhPipeline:
         query:    str,
         language: str | None = None,
     ) -> dict[str, Any]:
-        """Answer using Gemini 1.5 Flash with Google Search Grounding.
+        """Answer using the dedicated web search engine.
 
         Returns a standardised dict that matches Modes 1 & 2 so the UI layer
         needs zero special-casing.
-
-        Requires:
-            GEMINI_API_KEY in environment / config.gemini_api_key
-
-        Falls back gracefully with an error message if Gemini is not available.
         """
         detected_language = language or self._detect_language(query)
 
         try:
-            answer, sources = self._gemini_search(query, detected_language)
+            search_context = search_government_websites(query)
+            web_result = generate_web_answer(query, search_context, detected_language)
+            sources = web_result.get("sources") or create_web_source_cards(query)
+            answer = web_result.get("answer", "No answer generated.")
+            follow_ups = web_result.get("follow_up_questions") or self._stub_follow_ups(query, answer)
         except Exception as exc:
             answer  = f"⚠️ Live search unavailable: `{exc}`"
             sources = []
-
-        follow_ups = self._stub_follow_ups(query, answer)
+            follow_ups = self._stub_follow_ups(query, answer)
 
         return {
             "answer":              answer,
             "annotated_answer":    answer,
             "sources":             sources,
             "follow_up_questions": follow_ups,
-            "confidence":          0.90 if sources else 0.0,
+            "confidence":          web_result.get("confidence", 0.85) if "web_result" in locals() and sources else (0.0 if not sources else 0.85),
             "detected_language":   detected_language,
             "retrieved_count":     len(sources),
             "domain_filter":       None,
-            "provider":            "gemini-1.5-flash",
+            "provider":            web_result.get("provider", "web_search") if "web_result" in locals() else "web_search",
             "jargon_terms":        [],
         }
 
@@ -383,79 +386,6 @@ class SamajhPipeline:
                 ))
         return chunks or [Document(page_content=full_text or "[empty]",
                                    metadata={"source": "uploaded_document"})]
-
-    def _gemini_search(
-        self, query: str, language: str
-    ) -> tuple[str, list[dict[str, Any]]]:
-        """Search using DuckDuckGo (FREE!) and generate answer with Groq.
-
-        Returns:
-            (answer_markdown, sources_list)
-        """
-        try:
-            from ddgs import DDGS
-        except ImportError:
-            print("Installing ddgs...")
-            os.system("pip install ddgs")
-            from ddgs import DDGS
-
-        # ── Search using DuckDuckGo ────────────────────────────────────────
-        ddgs = DDGS()
-        search_results = ddgs.text(query)  # Query as positional argument
-
-        # ── Build search text for Groq ──────────────────────────────────────
-        search_text = ""
-        for idx, result in enumerate(search_results, 1):
-            title = result.get("title", "Result")
-            body = result.get("body", "")
-            search_text += f"[{idx}] {title}\n{body}\n\n"
-
-        # ── Generate answer using Groq ──────────────────────────────────────
-        from groq import Groq
-        client = Groq(api_key=os.environ.get("GROQ_API_KEY", ""))
-        
-        system_prompt = (
-            "You are SAMAJH, a civic intelligence assistant for Indian citizens. "
-            "Answer questions about government schemes, policies, laws, and civic information. "
-            "\n\nGuidelines:"
-            "\n- Use ONLY the provided search results"
-            "\n- Add inline numeric citations like [1] [2] after each claim"
-            "\n- Never fabricate information"
-            "\n- Provide actionable information (deadlines, eligibility, documents)"
-            "\n- Use **bold** for key terms"
-            f"\n- Respond in {language.capitalize()}"
-            "\n- Keep answer concise but comprehensive"
-        )
-        
-        user_prompt = f"""Answer this civic question using the provided search results:
-
-Question: {query}
-
-Search Results:
-{search_text}
-
-Provide:
-1. Direct answer with citations [1] [2] etc
-2. Actionable steps if applicable
-3. Important deadlines or requirements
-"""
-        
-        try:
-            response = client.messages.create(
-                model="llama-3.3-70b-versatile",
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt}
-                ],
-                max_tokens=1024,
-                temperature=0.7
-            )
-            answer = response.content[0].text if response.content else "No answer generated."
-        except Exception as e:
-            # Fallback: simple answer
-            answer = f"Based on web search results for '{query}', please check official sources for latest information."
-
-        return answer, []  # Return empty sources list
 
     def _stub_follow_ups(self, query: str, answer: str = "") -> list[str]:
         """Generate smart follow-up questions for web search results."""

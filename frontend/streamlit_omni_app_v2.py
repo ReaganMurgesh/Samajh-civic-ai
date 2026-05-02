@@ -776,18 +776,43 @@ elif st.session_state.current_mode == SamajhOmniRouter.MODE_LIVE_WEB:
     with col2:
         guide = st.selectbox("Guide Persona:", ["General", "Legal", "Farmer", "Health"], key="guide_web")
     
-    st.info("🌐 **Powered by DuckDuckGo** | Searches government websites and official sources")
+    st.info("🌐 **Powered by official civic web sources** | Returns current information with source references")
     
     st.markdown("---")
     st.markdown("### 💬 Ask Your Question")
     
     # Chat interface
-    for message in st.session_state.chat_history:
+    for message_idx, message in enumerate(st.session_state.chat_history):
         if message["role"] == "user":
             st.markdown(f'<div class="user-message">👤 <strong>You:</strong> {message["content"]}</div>', unsafe_allow_html=True)
         else:
             st.markdown(f'<div class="bot-message web">🤖 <strong>SAMAJH (Web Search):</strong></div>', unsafe_allow_html=True)
-            st.markdown(message.get("response", {}).get("answer", ""))
+            response = message.get("response", {})
+            st.markdown(response.get("answer", ""))
+
+            if response.get("sources"):
+                with st.expander("🔗 Web Sources"):
+                    for src in response["sources"][:5]:
+                        st.markdown(f'**{src.get("title", "Source")}**')
+                        if src.get("url"):
+                            st.markdown(f'[Open source]({src.get("url")})')
+                        if src.get("description"):
+                            st.caption(src.get("description"))
+
+            follow_ups = response.get("follow_up_questions", [])
+            if follow_ups:
+                st.markdown("💡 Related Questions:")
+                followup_cols = st.columns(2)
+                for followup_idx, followup in enumerate(follow_ups[:4]):
+                    followup_col = followup_cols[followup_idx % 2]
+                    with followup_col:
+                        if st.button(
+                            f"❓ {followup}",
+                            key=f"web_followup_{message_idx}_{followup_idx}_{hash(followup) % 100000}",
+                            use_container_width=True,
+                        ):
+                            st.session_state.execute_web_query = followup
+                            st.rerun()
     
     # Input
     col_input, col_btn = st.columns([0.85, 0.15])
@@ -825,6 +850,33 @@ elif st.session_state.current_mode == SamajhOmniRouter.MODE_LIVE_WEB:
         except Exception as e:
             st.error(f"❌ Search error: {str(e)}")
         
+        st.rerun()
+
+    if "execute_web_query" in st.session_state:
+        queued_query = st.session_state.pop("execute_web_query")
+        st.session_state.chat_history.append({
+            "role": "user",
+            "content": queued_query,
+            "timestamp": datetime.now()
+        })
+
+        try:
+            response = pipeline.answer_from_web(
+                query=queued_query,
+                language=language.lower()
+            )
+            response["mode"] = st.session_state.current_mode
+
+            st.session_state.chat_history.append({
+                "role": "assistant",
+                "content": response.get("answer", "No response"),
+                "response": response,
+                "mode": st.session_state.current_mode,
+                "timestamp": datetime.now()
+            })
+        except Exception as e:
+            st.error(f"❌ Search error: {str(e)}")
+
         st.rerun()
 
 # ============================================
