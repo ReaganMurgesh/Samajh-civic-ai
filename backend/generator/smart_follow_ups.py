@@ -1,7 +1,7 @@
 """
 Smart Follow-Up Question Generator for SAMAJH.
 
-Generates contextual, action-oriented follow-up questions based on:
+Generates contextual, action-oriented follow-up question's based on:
 1. The original user question
 2. The answer provided
 3. The type of document/issue
