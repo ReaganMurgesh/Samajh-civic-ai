@@ -38,245 +38,290 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-    /* Indian Colors: Saffron, White, Green */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
     :root {
-        --saffron: #FF9933;
-        --white: #FFFFFF;
-        --green: #138808;
-        --blue: #1F41B5;
-        --dark-bg: #0f172a;
-        --card-bg: #1a2540;
-        --text-light: #f1f5f9;
+        --primary: #4f46e5;
+        --primary-hover: #4338ca;
+        --success: #10b981;
+        --warning: #f59e0b;
+        --dark-bg: #0b0f19;
+        --card-bg: rgba(30, 41, 59, 0.65);
+        --text-light: #f8fafc;
+        --text-muted: #94a3b8;
+        --glass-border: rgba(255, 255, 255, 0.08);
+        --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
     }
     
-    body, .main {
-        background: linear-gradient(135deg, #0f172a 0%, #1a2540 100%);
-        color: #f1f5f9;
+    /* Global Typography & Background */
+    html, body, [class*="css"] {
+        font-family: 'Inter', sans-serif !important;
     }
     
-    /* Top Navigation Bar */
-    .navbar {
+    [data-testid="stAppViewContainer"] {
+        background-color: var(--dark-bg);
+        background-image: 
+            radial-gradient(at 0% 0%, rgba(79, 70, 229, 0.15) 0, transparent 50%),
+            radial-gradient(at 100% 100%, rgba(16, 185, 129, 0.1) 0, transparent 40%);
+        color: var(--text-light);
+    }
+    
+    [data-testid="stSidebar"] {
+        background-color: rgba(15, 23, 42, 0.9) !important;
+        backdrop-filter: blur(10px);
+        border-right: 1px solid var(--glass-border);
+    }
+
+    /* Logo Symbol Header */
+    .brand-container {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        padding: 20px 30px;
-        background: linear-gradient(90deg, rgba(255, 153, 51, 0.95) 0%, rgba(31, 65, 181, 0.95) 50%, rgba(19, 136, 8, 0.95) 100%);
-        border-bottom: 3px solid #FF9933;
-        border-radius: 0;
-        margin-bottom: 30px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    }
-    
-    .navbar-logo {
-        font-size: 28px;
-        font-weight: 800;
-        color: white;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-    
-    .navbar-modes {
-        display: flex;
         gap: 15px;
-        justify-content: center;
-        flex: 1;
-    }
-    
-    .mode-btn {
-        padding: 12px 20px;
-        border: 2px solid white;
-        background: rgba(255, 255, 255, 0.1);
-        color: white;
-        border-radius: 8px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        font-size: 14px;
-    }
-    
-    .mode-btn:hover {
-        background: rgba(255, 255, 255, 0.2);
-        transform: translateY(-2px);
-    }
-    
-    .mode-btn.active {
-        background: white;
-        color: #FF9933;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    }
-    
-    /* Suggested Questions Panel */
-    .questions-panel {
-        background: linear-gradient(135deg, rgba(255, 153, 51, 0.1) 0%, rgba(31, 65, 181, 0.1) 100%);
-        border-left: 4px solid #FF9933;
-        border-radius: 8px;
-        padding: 20px;
+        padding: 5px 0;
         margin-bottom: 20px;
     }
     
-    .questions-title {
-        font-size: 18px;
-        font-weight: 700;
-        color: #FF9933;
-        margin-bottom: 15px;
+    .brand-icon {
+        font-size: 36px;
+        background: linear-gradient(135deg, #4f46e5, #10b981);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        filter: drop-shadow(0 4px 6px rgba(79,70,229,0.3));
+    }
+    
+    .brand-text-block {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .brand-title {
+        font-size: 28px;
+        font-weight: 800;
+        color: #ffffff;
+        letter-spacing: 0.5px;
+        line-height: 1.1;
+    }
+    
+    .brand-subtitle {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--text-muted);
         text-transform: uppercase;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
+    }
+    
+    /* Top Navigation Elements */
+    .mode-btn {
+        padding: 12px 20px;
+        border: 1px solid var(--glass-border);
+        background: var(--card-bg);
+        color: var(--text-light);
+        border-radius: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        font-size: 14px;
+        backdrop-filter: blur(10px);
+    }
+    
+    /* Custom Styling for Streamlit Buttons mapping to Modes */
+    div.stButton > button {
+        background: var(--card-bg);
+        color: var(--text-light);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        padding: 12px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(12px);
+    }
+    
+    div.stButton > button:hover {
+        background: rgba(47, 58, 80, 0.8);
+        border-color: rgba(255,255,255,0.2);
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    
+    /* Accentuate Active Buttons visually */
+    div.stButton > button:focus:not(:active) {
+        border-color: var(--primary);
+        color: var(--primary);
+    }
+
+    /* Suggested Questions Panel - Glassmorphism */
+    .questions-panel {
+        background: var(--card-bg);
+        backdrop-filter: blur(12px);
+        border: 1px solid var(--glass-border);
+        border-left: 4px solid var(--primary);
+        border-radius: 12px;
+        padding: 24px;
+        margin-bottom: 25px;
+        box-shadow: var(--glass-shadow);
+    }
+    
+    .questions-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--text-muted);
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
     }
     
     .question-button {
         display: block;
         width: 100%;
-        padding: 12px 15px;
-        margin: 8px 0;
-        background: rgba(255, 153, 51, 0.15);
-        border: 1px solid #FF9933;
-        border-radius: 6px;
-        color: #f1f5f9;
+        padding: 14px 18px;
+        margin: 10px 0;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        color: var(--text-light);
         text-align: left;
         cursor: pointer;
         transition: all 0.2s ease;
         font-size: 14px;
-        line-height: 1.4;
+        line-height: 1.5;
     }
     
     .question-button:hover {
-        background: rgba(255, 153, 51, 0.3);
-        border-color: #FF9933;
-        transform: translateX(5px);
+        background: rgba(79, 70, 229, 0.1);
+        border-color: rgba(79, 70, 229, 0.4);
+        transform: translateX(4px);
     }
-    
-    .question-button.active {
-        background: #FF9933;
-        color: #0f172a;
-        border-color: #FF9933;
-        font-weight: 600;
-    }
-    
-    /* Chat Messages */
+
+    /* Chat Messages - Modernized bubbles */
     .user-message {
-        background: linear-gradient(135deg, #FF9933 0%, #FF9933 100%);
+        background: linear-gradient(135deg, var(--primary) 0%, #6366f1 100%);
         color: white;
-        padding: 12px 16px;
-        border-radius: 12px 12px 0 12px;
-        margin: 12px 0;
-        text-align: right;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        padding: 16px 20px;
+        border-radius: 16px 16px 4px 16px;
+        margin: 12px 0 24px auto;
+        max-width: 85%;
+        text-align: left;
+        box-shadow: 0 4px 15px rgba(79, 70, 229, 0.25);
+        font-size: 15px;
+        line-height: 1.5;
     }
     
     .bot-message {
-        background: rgba(31, 65, 181, 0.15);
-        color: #f1f5f9;
-        padding: 12px 16px;
-        border-radius: 12px 12px 12px 0;
-        margin: 12px 0;
-        border-left: 4px solid #1F41B5;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        background: var(--card-bg);
+        backdrop-filter: blur(10px);
+        color: var(--text-light);
+        padding: 16px 20px;
+        border-radius: 16px 16px 16px 4px;
+        margin: 12px auto 24px 0;
+        max-width: 90%;
+        border: 1px solid var(--glass-border);
+        border-left: 4px solid #3b82f6;
+        box-shadow: var(--glass-shadow);
+        font-size: 15px;
+        line-height: 1.6;
     }
     
     .bot-message.web {
-        border-left-color: #138808;
-        background: rgba(19, 136, 8, 0.15);
+        border-left-color: var(--success);
     }
     
-    /* Answer Section */
+    /* Answer Context/Source Section */
     .answer-section {
-        background: linear-gradient(135deg, rgba(31, 65, 181, 0.1) 0%, rgba(19, 136, 8, 0.1) 100%);
-        border: 2px solid rgba(31, 65, 181, 0.3);
-        border-radius: 8px;
+        background: rgba(15, 23, 42, 0.4);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
         padding: 20px;
         margin: 15px 0;
     }
     
     .answer-title {
-        font-size: 16px;
-        font-weight: 700;
-        color: #FF9933;
-        margin-bottom: 10px;
-        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--success);
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
     }
     
-    /* File Upload */
+    /* File Upload Area */
     .upload-section {
-        background: linear-gradient(135deg, rgba(19, 136, 8, 0.1) 0%, rgba(31, 65, 181, 0.1) 100%);
-        border: 2px dashed #138808;
-        border-radius: 8px;
-        padding: 20px;
+        background: rgba(16, 185, 129, 0.05);
+        border: 2px dashed rgba(16, 185, 129, 0.3);
+        border-radius: 12px;
+        padding: 30px;
         text-align: center;
-        margin: 20px 0;
+        margin: 25px 0;
+        transition: all 0.3s ease;
     }
     
-    /* PDF Info Cards */
+    .upload-section:hover {
+        background: rgba(16, 185, 129, 0.08);
+        border-color: var(--success);
+    }
+    
+    /* Document Cards */
     .pdf-info-card {
-        background: rgba(255, 153, 51, 0.1);
-        border-left: 4px solid #FF9933;
-        border-radius: 6px;
-        padding: 12px;
-        margin: 8px 0;
-        font-size: 12px;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid var(--glass-border);
+        border-left: 3px solid var(--warning);
+        border-radius: 8px;
+        padding: 16px;
+        margin: 10px 0;
+        transition: transform 0.2s ease;
+    }
+    
+    .pdf-info-card:hover {
+        transform: translateY(-2px);
+        background: rgba(255, 255, 255, 0.04);
     }
     
     .pdf-title {
         font-weight: 600;
-        color: #FF9933;
+        color: var(--text-light);
+        margin-bottom: 4px;
     }
     
     .pdf-meta {
-        color: #a0a0a0;
-        font-size: 11px;
+        color: var(--text-muted);
+        font-size: 12px;
+    }
+
+    /* Custom Scrollbar for a polished feel */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.1); 
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.15); 
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.25); 
     }
     
-    /* Status Indicators */
-    .status-processing {
-        color: #FF9933;
-        font-weight: 600;
-    }
-    
-    .status-success {
-        color: #138808;
-        font-weight: 600;
-    }
-    
-    .status-error {
-        color: #ef4444;
-        font-weight: 600;
-    }
-    
-    /* Buttons */
-    .stButton>button {
-        background: linear-gradient(135deg, #FF9933 0%, #FF9933 100%);
-        color: white;
-        border: none;
-        font-weight: 600;
-        border-radius: 6px;
-        padding: 10px 20px;
-        transition: all 0.3s ease;
-    }
-    
-    .stButton>button:hover {
-        background: linear-gradient(135deg, #FF7722 0%, #FF7722 100%);
-        transform: translateY(-2px);
-    }
-    
-    .stSelectbox, .stTextInput {
-        color: #f1f5f9;
+    /* Forms and Inputs */
+    .stSelectbox div[data-baseweb="select"], .stTextInput input {
+        background-color: var(--card-bg) !important;
+        border: 1px solid var(--glass-border) !important;
+        color: var(--text-light) !important;
+        border-radius: 8px !important;
     }
     
     /* Footer */
     .footer {
         text-align: center;
-        padding: 20px;
-        color: #a0a0a0;
-        border-top: 1px solid rgba(255, 153, 51, 0.2);
-        margin-top: 40px;
+        padding: 25px;
+        color: var(--text-muted);
+        border-top: 1px solid var(--glass-border);
+        margin-top: 50px;
+        font-size: 13px;
     }
     
-    .footer-logo {
-        font-size: 20px;
-        font-weight: 700;
-        background: linear-gradient(90deg, #FF9933, #1F41B5, #138808);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin-bottom: 5px;
-    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -364,10 +409,18 @@ def clear_conversation():
 # TOP NAVBAR
 # ============================================
 
-col1, col2, col3, col4, col5 = st.columns([1, 1.5, 1.5, 1.5, 1])
+col1, col2, col3, col4, col5 = st.columns([1.2, 1.5, 1.5, 1.5, 1])
 
 with col1:
-    st.markdown('<div class="navbar-logo">🏛️ SAMAJH</div>', unsafe_allow_html=True)
+    st.markdown('''
+        <div class="brand-container">
+            <div class="brand-icon">🏛️</div>
+            <div class="brand-text-block">
+                <span class="brand-title">SAMAJH</span>
+                <span class="brand-subtitle">Civic Info Platform</span>
+            </div>
+        </div>
+    ''', unsafe_allow_html=True)
 
 with col2:
     if st.button(
