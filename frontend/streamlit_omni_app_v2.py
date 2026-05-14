@@ -41,15 +41,15 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
     :root {
-        --primary: #4f46e5;
-        --primary-hover: #4338ca;
+        --primary: #6366f1;
+        --primary-hover: #4f46e5;
         --success: #10b981;
         --warning: #f59e0b;
-        --dark-bg: #0b0f19;
-        --card-bg: rgba(30, 41, 59, 0.65);
-        --text-light: #f8fafc;
-        --text-muted: #94a3b8;
-        --glass-border: rgba(255, 255, 255, 0.08);
+        --dark-bg: #111827; /* Rich Slate / Gray 900 background */
+        --card-bg: rgba(31, 41, 55, 0.75); /* Gray 800 glass container */
+        --text-light: #f3f4f6;
+        --text-muted: #9ca3af;
+        --glass-border: rgba(255, 255, 255, 0.1);
         --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
     }
     
@@ -58,12 +58,31 @@ st.markdown("""
         font-family: 'Inter', sans-serif !important;
     }
     
+    /* Dark Theme Background with a subtle gradient */
     [data-testid="stAppViewContainer"] {
-        background-color: var(--dark-bg);
-        background-image: 
-            radial-gradient(at 0% 0%, rgba(79, 70, 229, 0.15) 0, transparent 50%),
-            radial-gradient(at 100% 100%, rgba(16, 185, 129, 0.1) 0, transparent 40%);
-        color: var(--text-light);
+        background-color: #0E1117;
+        background-image: radial-gradient(circle at 50% 0%, #1a1c23 0%, #0E1117 70%);
+        color: #E0E0E0;
+    }
+    
+    /* Clean up the chat input box */
+    [data-testid="stChatInput"] {
+        background-color: #1E1E2E !important;
+        border: 1px solid #333 !important;
+    }
+
+    /* Style the Assistant Chat Bubbles to look like Perplexity */
+    [data-testid="chatAvatarIcon-assistant"] {
+        background-color: #5C5CFF;
+    }
+    .stChatMessage {
+        background-color: transparent;
+        padding: 1.5rem;
+        border-radius: 10px;
+    }
+    .stChatMessage:has([data-testid="chatAvatarIcon-assistant"]) {
+        background-color: rgba(30, 30, 46, 0.5); /* Subtle highlight for AI answers */
+        border: 1px solid rgba(255, 255, 255, 0.05);
     }
     
     [data-testid="stSidebar"] {
