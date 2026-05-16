@@ -38,59 +38,74 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-
-    :root {
-        --primary: #6366f1;
-        --primary-hover: #4f46e5;
-        --success: #10b981;
-        --warning: #f59e0b;
-        --dark-bg: #111827; /* Rich Slate / Gray 900 background */
-        --card-bg: rgba(31, 41, 55, 0.75); /* Gray 800 glass container */
-        --text-light: #f3f4f6;
-        --text-muted: #9ca3af;
-        --glass-border: rgba(255, 255, 255, 0.1);
-        --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-    }
-    
-    /* Global Typography & Background */
-    html, body, [class*="css"] {
-        font-family: 'Inter', sans-serif !important;
-    }
-    
-    /* Dark Theme Background with a subtle gradient */
+    /* Deep Dark Background */
     [data-testid="stAppViewContainer"] {
-        background-color: #0E1117;
-        background-image: radial-gradient(circle at 50% 0%, #1a1c23 0%, #0E1117 70%);
-        color: #E0E0E0;
-    }
-    
-    /* Clean up the chat input box */
-    [data-testid="stChatInput"] {
-        background-color: #1E1E2E !important;
-        border: 1px solid #333 !important;
+        background-color: #121212;
+        color: #EDEDED;
     }
 
-    /* Style the Assistant Chat Bubbles to look like Perplexity */
+    /* Themed Sidebar */
+    [data-testid="stSidebar"] {
+        background-color: #1A1A1D !important;
+        border-right: 1px solid #333 !important;
+    }
+
+    /* Clean Chat Input with Orange Focus */
+    [data-testid="stChatInputContainer"] {
+        background-color: #1E1E24 !important;
+        border: 1px solid #444 !important;
+        border-radius: 10px;
+    }
+
+    /* SAMAJH Assistant Chat Bubble */
     [data-testid="chatAvatarIcon-assistant"] {
-        background-color: #5C5CFF;
+        background-color: #FF6B35; /* Vibrant Orange */
+        color: white;
     }
     .stChatMessage {
         background-color: transparent;
         padding: 1.5rem;
-        border-radius: 10px;
-    }
-    .stChatMessage:has([data-testid="chatAvatarIcon-assistant"]) {
-        background-color: rgba(30, 30, 46, 0.5); /* Subtle highlight for AI answers */
-        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
     }
     
-    [data-testid="stSidebar"] {
-        background-color: rgba(15, 23, 42, 0.9) !important;
-        backdrop-filter: blur(10px);
-        border-right: 1px solid var(--glass-border);
+    /* Highlight the AI's response to separate it from the user */
+    .stChatMessage:has([data-testid="chatAvatarIcon-assistant"]) {
+        background-color: rgba(255, 107, 53, 0.05); /* Very faint orange tint */
+        border-left: 4px solid #FF6B35;
     }
 
+    /* Follow-up Buttons (matching Top Navigation modes / Streamlit buttons) */
+    .stButton>button {
+        border-radius: 8px !important;
+        transition: 0.3s;
+        border: 1px solid #444 !important;
+        background-color: #1A1A1D !important;
+        color: #EDEDED !important;
+        padding: 12px;
+        font-weight: 600;
+    }
+    .stButton>button:hover {
+        border-color: #FF6B35 !important;
+        color: #FF6B35 !important;
+    }
+
+    /* Source Chips */
+    .source-chip { 
+        background-color: #1E1E24; 
+        padding: 12px; 
+        border-radius: 8px; 
+        font-size: 0.85rem; 
+        border: 1px solid #333; 
+        margin-bottom: 10px; 
+        border-left: 3px solid #666;
+    }
+    
+    /* Global Typography */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    html, body, [class*="css"] {
+        font-family: 'Inter', sans-serif !important;
+    }
+    
     /* Logo Symbol Header */
     .brand-container {
         display: flex;
@@ -99,20 +114,15 @@ st.markdown("""
         padding: 5px 0;
         margin-bottom: 20px;
     }
-    
     .brand-icon {
         font-size: 36px;
-        background: linear-gradient(135deg, #4f46e5, #10b981);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        filter: drop-shadow(0 4px 6px rgba(79,70,229,0.3));
+        color: #FF6B35;
+        filter: drop-shadow(0 2px 4px rgba(255,107,53,0.3));
     }
-    
     .brand-text-block {
         display: flex;
         flex-direction: column;
     }
-    
     .brand-title {
         font-size: 28px;
         font-weight: 800;
@@ -120,34 +130,15 @@ st.markdown("""
         letter-spacing: 0.5px;
         line-height: 1.1;
     }
-    
     .brand-subtitle {
         font-size: 12px;
         font-weight: 500;
-        color: var(--text-muted);
+        color: #9ca3af;
         text-transform: uppercase;
         letter-spacing: 2px;
     }
-    
-    /* Top Navigation Elements */
-    .mode-btn {
-        padding: 12px 20px;
-        border: 1px solid var(--glass-border);
-        background: var(--card-bg);
-        color: var(--text-light);
-        border-radius: 12px;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        font-size: 14px;
-        backdrop-filter: blur(10px);
-    }
-    
-    /* Custom Styling for Streamlit Buttons mapping to Modes */
-    div.stButton > button {
-        background: var(--card-bg);
-        color: var(--text-light);
-        border: 1px solid var(--glass-border);
+</style>
+""", unsafe_allow_html=True)
         border-radius: 12px;
         padding: 12px;
         font-weight: 600;
