@@ -38,17 +38,31 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-    /* Global Typography */
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+    :root {
+        --primary: #6366f1;
+        --primary-hover: #4f46e5;
+        --success: #10b981;
+        --warning: #f59e0b;
+        --dark-bg: #111827; /* Rich Slate / Gray 900 background */
+        --card-bg: rgba(31, 41, 55, 0.75); /* Gray 800 glass container */
+        --text-light: #f3f4f6;
+        --text-muted: #9ca3af;
+        --glass-border: rgba(255, 255, 255, 0.1);
+        --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    }
+    
+    /* Global Typography & Background */
     html, body, [class*="css"] {
         font-family: 'Inter', sans-serif !important;
     }
-
+    
     /* Dark Theme Background with a subtle gradient */
     [data-testid="stAppViewContainer"] {
-        background-color: #0E1117 !important;
-        background-image: radial-gradient(circle at 50% 0%, #1a1c23 0%, #0E1117 70%) !important;
-        color: #E0E0E0 !important;
+        background-color: #0E1117;
+        background-image: radial-gradient(circle at 50% 0%, #1a1c23 0%, #0E1117 70%);
+        color: #E0E0E0;
     }
     
     /* Clean up the chat input box */
@@ -71,6 +85,12 @@ st.markdown("""
         border: 1px solid rgba(255, 255, 255, 0.05);
     }
     
+    [data-testid="stSidebar"] {
+        background-color: rgba(15, 23, 42, 0.9) !important;
+        backdrop-filter: blur(10px);
+        border-right: 1px solid var(--glass-border);
+    }
+
     /* Logo Symbol Header */
     .brand-container {
         display: flex;
@@ -79,15 +99,20 @@ st.markdown("""
         padding: 5px 0;
         margin-bottom: 20px;
     }
+    
     .brand-icon {
         font-size: 36px;
-        color: #5C5CFF;
-        filter: drop-shadow(0 2px 4px rgba(92,92,255,0.3));
+        background: linear-gradient(135deg, #4f46e5, #10b981);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        filter: drop-shadow(0 4px 6px rgba(79,70,229,0.3));
     }
+    
     .brand-text-block {
         display: flex;
         flex-direction: column;
     }
+    
     .brand-title {
         font-size: 28px;
         font-weight: 800;
@@ -95,13 +120,227 @@ st.markdown("""
         letter-spacing: 0.5px;
         line-height: 1.1;
     }
+    
     .brand-subtitle {
         font-size: 12px;
         font-weight: 500;
-        color: #9ca3af;
+        color: var(--text-muted);
         text-transform: uppercase;
         letter-spacing: 2px;
     }
+    
+    /* Top Navigation Elements */
+    .mode-btn {
+        padding: 12px 20px;
+        border: 1px solid var(--glass-border);
+        background: var(--card-bg);
+        color: var(--text-light);
+        border-radius: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        font-size: 14px;
+        backdrop-filter: blur(10px);
+    }
+    
+    /* Custom Styling for Streamlit Buttons mapping to Modes */
+    div.stButton > button {
+        background: var(--card-bg);
+        color: var(--text-light);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        padding: 12px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(12px);
+    }
+    
+    div.stButton > button:hover {
+        background: rgba(47, 58, 80, 0.8);
+        border-color: rgba(255,255,255,0.2);
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    
+    /* Accentuate Active Buttons visually */
+    div.stButton > button:focus:not(:active) {
+        border-color: var(--primary);
+        color: var(--primary);
+    }
+
+    /* Suggested Questions Panel - Glassmorphism */
+    .questions-panel {
+        background: var(--card-bg);
+        backdrop-filter: blur(12px);
+        border: 1px solid var(--glass-border);
+        border-left: 4px solid var(--primary);
+        border-radius: 12px;
+        padding: 24px;
+        margin-bottom: 25px;
+        box-shadow: var(--glass-shadow);
+    }
+    
+    .questions-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--text-muted);
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .question-button {
+        display: block;
+        width: 100%;
+        padding: 14px 18px;
+        margin: 10px 0;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        color: var(--text-light);
+        text-align: left;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .question-button:hover {
+        background: rgba(79, 70, 229, 0.1);
+        border-color: rgba(79, 70, 229, 0.4);
+        transform: translateX(4px);
+    }
+
+    /* Chat Messages - Modernized bubbles */
+    .user-message {
+        background: linear-gradient(135deg, var(--primary) 0%, #6366f1 100%);
+        color: white;
+        padding: 16px 20px;
+        border-radius: 16px 16px 4px 16px;
+        margin: 12px 0 24px auto;
+        max-width: 85%;
+        text-align: left;
+        box-shadow: 0 4px 15px rgba(79, 70, 229, 0.25);
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    
+    .bot-message {
+        background: var(--card-bg);
+        backdrop-filter: blur(10px);
+        color: var(--text-light);
+        padding: 16px 20px;
+        border-radius: 16px 16px 16px 4px;
+        margin: 12px auto 24px 0;
+        max-width: 90%;
+        border: 1px solid var(--glass-border);
+        border-left: 4px solid #3b82f6;
+        box-shadow: var(--glass-shadow);
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    
+    .bot-message.web {
+        border-left-color: var(--success);
+    }
+    
+    /* Answer Context/Source Section */
+    .answer-section {
+        background: rgba(15, 23, 42, 0.4);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        padding: 20px;
+        margin: 15px 0;
+    }
+    
+    .answer-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--success);
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    /* File Upload Area */
+    .upload-section {
+        background: rgba(16, 185, 129, 0.05);
+        border: 2px dashed rgba(16, 185, 129, 0.3);
+        border-radius: 12px;
+        padding: 30px;
+        text-align: center;
+        margin: 25px 0;
+        transition: all 0.3s ease;
+    }
+    
+    .upload-section:hover {
+        background: rgba(16, 185, 129, 0.08);
+        border-color: var(--success);
+    }
+    
+    /* Document Cards */
+    .pdf-info-card {
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid var(--glass-border);
+        border-left: 3px solid var(--warning);
+        border-radius: 8px;
+        padding: 16px;
+        margin: 10px 0;
+        transition: transform 0.2s ease;
+    }
+    
+    .pdf-info-card:hover {
+        transform: translateY(-2px);
+        background: rgba(255, 255, 255, 0.04);
+    }
+    
+    .pdf-title {
+        font-weight: 600;
+        color: var(--text-light);
+        margin-bottom: 4px;
+    }
+    
+    .pdf-meta {
+        color: var(--text-muted);
+        font-size: 12px;
+    }
+
+    /* Custom Scrollbar for a polished feel */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.1); 
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.15); 
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.25); 
+    }
+    
+    /* Forms and Inputs */
+    .stSelectbox div[data-baseweb="select"], .stTextInput input {
+        background-color: var(--card-bg) !important;
+        border: 1px solid var(--glass-border) !important;
+        color: var(--text-light) !important;
+        border-radius: 8px !important;
+    }
+    
+    /* Footer */
+    .footer {
+        text-align: center;
+        padding: 25px;
+        color: var(--text-muted);
+        border-top: 1px solid var(--glass-border);
+        margin-top: 50px;
+        font-size: 13px;
+    }
+    
 </style>
 """, unsafe_allow_html=True)
 
